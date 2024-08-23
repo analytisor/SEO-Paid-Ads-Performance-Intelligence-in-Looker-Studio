@@ -2,6 +2,9 @@
 
 **To access the interactive Looker Studio dashboard:** [Link Here](https://lookerstudio.google.com/reporting/29e892ed-26bc-41f4-84d1-7cd7142c7100)
 
+![Screenshot of Facebook Ads Dashboard](https://github.com/analytisor/paid_ads_looker_studio_dashboard/blob/main/Facebook_Ads_Dashboard-page-001.jpg)
+
+
 ## **SUMMARY**
 
 This Looker Studio dashboard was developed as a tool to monitor the continuous performance of paid ad campaigns, with a specific focus on Facebook Ads. The dashboard also supports other platforms such as Google Ads and additional paid ad data sources.
