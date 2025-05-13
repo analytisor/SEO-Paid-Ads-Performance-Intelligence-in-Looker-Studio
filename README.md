@@ -1,48 +1,75 @@
-## [**Interactive Looker Studio Dashboard**](#)
+# SEO & Paid Ads Performance Intelligence in Looker Studio
 
-**To access the interactive Looker Studio dashboard:** [Link Here](https://lookerstudio.google.com/reporting/29e892ed-26bc-41f4-84d1-7cd7142c7100)
+This repository showcases two dynamic marketing analytics dashboards created in Looker Studio. Each project demonstrates how data visualization can drive smarter decisions in Paid Media and SEO strategy.
 
-![Screenshot of Facebook Ads Dashboard](https://github.com/analytisor/paid_ads_looker_studio_dashboard/blob/main/Facebook_Ads_Dashboard-page-001.jpg)
+---
 
+## 📊 Project 1: Paid Ads Performance Dashboard
 
-## **SUMMARY**
+**🔗 Interactive Dashboard**: [View in Looker Studio](https://lookerstudio.google.com/reporting/29e892ed-26bc-41f4-84d1-7cd7142c7100)  
+![Paid Ads Dashboard](https://github.com/analytisor/paid_ads_looker_studio_dashboard/blob/main/Facebook_Ads_Dashboard-page-001.jpg)
 
-This Looker Studio dashboard was developed as a tool to monitor the continuous performance of paid ad campaigns, with a specific focus on Facebook Ads. The dashboard also supports other platforms such as Google Ads and additional paid ad data sources.
+### Overview
+Designed for real-time campaign performance monitoring, this dashboard helps marketing teams evaluate cross-platform paid media efficiency, primarily focused on Facebook Ads, while adaptable for Google Ads and others.
 
-The dashboard provides deep insights into day-to-day campaign management and performance, enabling marketing teams to monitor ad effectiveness, engagement, and conversion rates across different platforms. It offers flexibility through its date selector and smart navigation menus, allowing users to slice and dice the data across multiple dimensions.
+### Key Metrics
+- Impressions, Clicks, Users
+- CPM, CPC, CTR (%)
+- Cost per User / Conversion
+- Conversion Volume, Value, and Rate
 
-### **Metrics and Dimensions**
+### Dimensions
+- Campaign Type: Acquisition vs. Remarketing
+- Campaign Name
+- Ad Group Name
 
-**Key Metrics:**
+### Data Sources
+- Google Sheets (Demo)
+- API integrations for real-time tracking
+
+### Use Cases
+- Daily campaign monitoring
+- Cost-efficiency insights
+- Multi-channel performance comparisons
+
+---
+
+## 🔍 Project 2: SEO Keyword Opportunity Analysis Report
+
+**🔗 Interactive Dashboard**: [View in Looker Studio](https://lookerstudio.google.com/reporting/e7265cb0-d89c-45ff-bd19-e1eed95b02e1)  
+![Keyword Overview](https://github.com/analytisor/SEO-Keyword-Oppotunity-Analysis-Report-Looker-Stuido-/blob/main/keyword_intent_overview.jpg)
+
+### Overview
+Built for a medical client (anonymized as "VisiMed"), this SEO dashboard analyzes Google Search Console data to surface actionable keyword optimization opportunities and guide organic strategy.
+
+### Key Metrics
 - Impressions
-- Users
-- CPM (Cost per Thousand Impressions)
-- Cost/User
 - Clicks
-- Spent
-- CPC (Cost per Click)
-- Click Through Rate (CTR %)
-- Total Conversions
-- Conversion Rate
-- Cost/Conversion
-- Conversion Value
+- Click-Through Rate (CTR %)
+- Average Ranking Position
 
-**Key Dimensions:**
-- **Campaign Type:** Separated by _Acquisition_ vs. _Remarketing_
-- **Campaign Name:** Name of the different campaigns
-- **Ad Group Name:** Name of the ad group set up via the paid ad channel
+### Dimensions
+- Search Intent Groups (e.g. Service Inquiry, User Action)
+- Branded vs. Non-Branded Keywords
+- Opportunity Clusters (e.g. High Impression/Low CTR)
 
-### **Data Sources**
+### Technical Highlights
+- Regex-powered keyword categorization
+- Dynamic metric selector
+- Google Sheets + Looker Studio integration
 
-- **Google Sheets (Demonstration Data):**  
-  The data in this dashboard is sourced from a Google Sheet containing fabricated data for demonstration purposes. The visualization has been designed with flexibility in mind and can easily be connected to real data sources.
-  
-- **API Integration:**  
-  With minimal updates required (such as adjusting dimension and metric field names in each chart), the dashboard can be connected to live data sources, including API extractors for real-time campaign monitoring.
+### Impact
+- Enhanced organic visibility strategy
+- Identified high-potential low-performing keywords
+- Delivered client-ready SEO insights
 
-### **Usage**
+---
 
-This dashboard provides a comprehensive tool for marketing teams to monitor campaign performance, offering deep insights into ad effectiveness, engagement metrics, and overall campaign success across multiple platforms.
+## 🧰 Tools & Technologies
+- Looker Studio
+- Google Search Console
+- Google Ads & Facebook Ads APIs
+- Google Sheets
+- SQL (BigQuery)
 
-
-
+---
